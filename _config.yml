@@ -13,12 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
+remote_theme : mmistakes/jekyll-theme-basically-basic
+
 lang: en-US
-title: My Awesome Site
-email:
+title: ><
+email:tjddn020@gmail.com
 description:
-baseurl: # the optional subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https://tjddn020.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl: "" # the subpath of your site, e.g. "/blog"
+#baseurl: # the optional subpath of your site, e.g. "/blog"
+#url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
   name:
   twitter:
@@ -84,6 +89,3 @@ defaults:
       layout: post
       read_time: true
       
-remote_theme : mmistakes/jekyll-theme-basically-basic
-url                      : "https://tjddn020.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"

@@ -83,3 +83,7 @@ defaults:
     values:
       layout: post
       read_time: true
+      
+remote_theme : mmistakes/jekyll-theme-basically-basic
+url                      : "https://tjddn020.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
